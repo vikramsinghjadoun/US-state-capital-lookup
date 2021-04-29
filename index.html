@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>State Capital Lookup</title>
+  </head>
+  <body class="bg-black">
+    <header>
+      <div class="m-4">
+        <span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-10 w-10 text-white set"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
+            />
+          </svg>
+        </span>
+        <h3 class="text-center text-3xl font-medium text-white">
+          State Capital Lookup
+        </h3>
+      </div>
+    </header>
+    <div>
+      <input
+        class="w-full h-10 rounded mt-6 pl-4"
+        type="text"
+        id="search"
+        placeholder=" Enter state name or Abberivation....."
+      />
+    </div>
+    <div id="match-list"></div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
